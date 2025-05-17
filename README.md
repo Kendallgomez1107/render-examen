@@ -1,5 +1,4 @@
-📡 Endpoints API REST - Consultorio Médico
-🧑‍⚕️ Pacientes (/api/patients)
+ Endpoints API REST - Consultorio Médico
 
 en todas las consultas de obtencion id por el numero de id para que busque especificamente ese 
 dato un ejemplo /api/patients/id seria /api/patients/1 para que de el primer datos de las tablas 
