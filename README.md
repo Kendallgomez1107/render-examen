@@ -1,14 +1,17 @@
 📡 Endpoints API REST - Consultorio Médico
 🧑‍⚕️ Pacientes (/api/patients)
 
+en todas las consultas de obtencion id por el numero de id para que busque especificamente ese 
+dato un ejemplo /api/patients/id seria /api/patients/1 para que de el primer datos de las tablas 
+
 
 | Método | Ruta                | Descripción                |
 | ------ | ------------------- | -------------------------- |
 | GET    | `/api/patients`     | Listar todos los pacientes |
-| GET    | `/api/patients/:id` | Obtener paciente por ID    |
+| GET    | `/api/patients/id`  | Obtener paciente por ID    |
 | POST   | `/api/patients`     | Crear un nuevo paciente    |
-| PUT    | `/api/patients/:id` | Actualizar paciente por ID |
-| DELETE | `/api/patients/:id` | Eliminar paciente por ID   |
+| PUT    | `/api/patients/id`  | Actualizar paciente por ID |
+| DELETE | `/api/patients/id`  |  Eliminar paciente por ID  |
 
 
 👨‍⚕️ Médicos (/api/doctors)
